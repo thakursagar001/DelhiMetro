@@ -33,7 +33,7 @@ Example : http://localhost:8080/metro/swipeout/1/S1
 URL : http://localhost:8080/metro/carddetail/{cardId}
 Example : http://localhost:8080/metro/carddetail/1
 
-RequestBody :: 
+Response :: 
 {
     "user": {
         "id": 1,
@@ -54,7 +54,7 @@ RequestBody ::
     "balance": 61.5
 }
 
-//This Api will give all the details of Station Details
+// This Api will give all the details of Station Details
 URL : http://localhost:8080/metro/stationdetail/{station}
 Example : http://localhost:8080/metro/stationdetail/S1
 
